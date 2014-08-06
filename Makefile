@@ -43,7 +43,7 @@ doc: check-reqs
 # code coverage
 #
 
-COVERAGE_INCLUDE='cmsplugin_accordion/*'
+COVERAGE_INCLUDE='cmsplugin_collapse/*'
 
 coverage: check-reqs
 	coverage erase

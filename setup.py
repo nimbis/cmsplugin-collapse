@@ -8,10 +8,10 @@ reqs = parse_requirements("requirements/common.txt")
 
 setup(
     name='cmsplugin-collapse',
-    version='0.1.1',
+    version='0.1.2',
     author='Nimbis Services, Inc.',
     author_email='devops@nimbisservices.com',
-    url='http://github.com/nimbis/cmsplugin-accordion',
+    url='http://github.com/nimbis/cmsplugin-collapse',
     description=('A simple bootstrap accordion plugin for django-cms'),
     long_description=open('README.md').read(),
     packages=find_packages(),
