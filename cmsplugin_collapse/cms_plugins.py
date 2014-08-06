@@ -11,7 +11,7 @@ from .models import AccordionHeader, Collapsible
 class AccordionHeaderPlugin(CMSPluginBase):
     model = AccordionHeader
     name = "Accordion Header"
-    render_template = "cmsplugin_accordion/accordionheader.html"
+    render_template = "cmsplugin_collapse/accordionheader.html"
     allow_children = True
     child_classes = ["CollapsiblePlugin"]
 
@@ -25,7 +25,7 @@ class AccordionHeaderPlugin(CMSPluginBase):
 class CollapsiblePlugin(CMSPluginBase):
     model = Collapsible
     name = "Collapsible"
-    render_template = "cmsplugin_accordion/accordioncollapsible.html"
+    render_template = "cmsplugin_collapse/accordioncollapsible.html"
     parent_classes = ["AccordionHeaderPlugin"]
     allow_children = True
 
