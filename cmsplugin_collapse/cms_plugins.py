@@ -1,7 +1,11 @@
+from __future__ import absolute_import
+
 from django.contrib import admin
+
 from cms.plugin_pool import plugin_pool
 from cms.plugin_base import CMSPluginBase
-from cmsplugin_accordion.models import AccordionHeader, Collapsible
+
+from .models import AccordionHeader, Collapsible
 
 
 class AccordionHeaderPlugin(CMSPluginBase):

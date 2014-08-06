@@ -1,5 +1,8 @@
+from __future__ import absolute_import
+
 from django.test import TestCase
-from models import AccordionHeader, Collapsible
+
+from .models import AccordionHeader, Collapsible
 
 
 class AccordionTest(TestCase):
