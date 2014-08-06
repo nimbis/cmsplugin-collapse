@@ -1,0 +1,29 @@
+{% load sekizai_tags cms_tags %}
+
+{% block content %}
+{% addtoblock "js" %}
+    <script type="text/javascript">
+        $(function(){$("collapse-{{ instance.id }} a:first").collapse('show')});
+    </script>
+{% endaddtoblock %}
+{% endblock %}
+
+<div class="panel-group" id="accordion-{{ instance.id }}">
+  {% for collapsible in instance.child_plugin_instances %}
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion-{{ instance.id }}" href="#collapse-{{ collapsible.id }}">
+          {{ collapsible.title }}
+        </a>
+      </h4>
+    </div>
+
+    <div id="collapse-{{ collapsible.id }}" class="panel-collapse collapse {% if forloop.first and instance.show_first %} in {% endif %}">
+      <div class="panel-body">
+        {% render_plugin collapsible %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

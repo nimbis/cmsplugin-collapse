@@ -1,0 +1,3 @@
+include README.md
+recursive-include cmsplugin_collapse/templates *
+recursive-include requirements *.txt
