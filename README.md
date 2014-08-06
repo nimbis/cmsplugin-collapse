@@ -15,6 +15,10 @@ Requirements
 History
 -------
 
+0.1.3:
+
+    * Fixed template locations.
+
 0.1.2:
 
     * Fixed url in setup.py and additional import errors.
