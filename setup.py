@@ -8,7 +8,7 @@ reqs = parse_requirements("requirements/common.txt")
 
 setup(
     name='cmsplugin-collapse',
-    version='0.1.3',
+    version='0.2.0',
     author='Nimbis Services, Inc.',
     author_email='devops@nimbisservices.com',
     url='http://github.com/nimbis/cmsplugin-collapse',
