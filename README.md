@@ -24,6 +24,10 @@ Requirements
 History
 -------
 
+0.2.2:
+
+   * Add session argument to parse_requirements.
+
 0.2.0:
 
     * Add accordion-toggle class to title for css decoration.

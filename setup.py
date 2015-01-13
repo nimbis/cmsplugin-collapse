@@ -6,11 +6,11 @@ from setuptools import find_packages, setup
 from pip.req import parse_requirements
 
 # parse requirements
-reqs = parse_requirements("requirements/common.txt", , session=uuid.uuid1())
+reqs = parse_requirements("requirements/common.txt", session=uuid.uuid1())
 
 setup(
     name='cmsplugin-collapse',
-    version='0.2.1',
+    version='0.2.3',
     author='Nimbis Services, Inc.',
     author_email='devops@nimbisservices.com',
     url='http://github.com/nimbis/cmsplugin-collapse',
