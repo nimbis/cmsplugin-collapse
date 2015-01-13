@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 
+import uuid
+
 from setuptools import find_packages, setup
 from pip.req import parse_requirements
 
 # parse requirements
-reqs = parse_requirements("requirements/common.txt")
+reqs = parse_requirements("requirements/common.txt", , session=uuid.uuid1())
 
 setup(
     name='cmsplugin-collapse',
