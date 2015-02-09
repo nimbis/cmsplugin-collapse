@@ -24,6 +24,10 @@ Requirements
 History
 -------
 
+0.2.4:
+
+   * Update to Django 1.7 migrations
+
 0.2.2:
 
    * Add session argument to parse_requirements.
