@@ -7,9 +7,9 @@ Installation
 ------------
 
 * pip install cmsplugin-collapse
-* add cmsplugin_collapse to INSTALLED_APPS
-* if you want css chevrons, add css to your per these instructions:
-  http://stackoverflow.com/questions/18325779/bootstrap-3-collapse-show-state-with-chevron-icon
+* Add cmsplugin_collapse to INSTALLED_APPS
+* If you want chevrons for the dropdowns, check out this StackOverflow answer:
+  http://stackoverflow.com/a/18568997
 
 
 Requirements
@@ -17,20 +17,26 @@ Requirements
 
 * django >= 1.5
 * django-cms >= 3.0
-* sekizai
+
+Required for included template:
+* django-sekizai
 * bootstrap
 
 
 History
 -------
 
+0.2.5:
+
+    * Removing pip >= 6.0 requirement from setup.py.
+
 0.2.4:
 
-   * Update to Django 1.7 migrations
+    * Update to Django 1.7 migrations
 
 0.2.2:
 
-   * Add session argument to parse_requirements.
+    * Add session argument to parse_requirements.
 
 0.2.0:
 
