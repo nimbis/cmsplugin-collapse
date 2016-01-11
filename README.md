@@ -22,6 +22,10 @@ Required for included template:
 * django-sekizai
 * bootstrap
 
+Contributing
+------------
+
+See the [Contributing Guidelines](CONTRIBUTING.md).
 
 History
 -------
