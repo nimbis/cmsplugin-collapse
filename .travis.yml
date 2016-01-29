@@ -2,6 +2,9 @@ sudo: false
 language: python
 python:
   - "2.7"
+branches:
+  except:
+    travis-tested
 env:
   global:
     - NIFTY_TRAVIS_CACHE_REPO=https://github.com/nimbis/travis-cache-public.git
@@ -12,8 +15,8 @@ before_script:
 script:
   - source .nifty/nifty-script
   - verify_coverage_improvement
+  - test_and_tag
   - make pep8
   - make flake8
-  - make test
 after_success:
   - coveralls
