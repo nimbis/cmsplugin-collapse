@@ -30,6 +30,11 @@ See the [Contributing Guidelines](CONTRIBUTING.md).
 History
 -------
 
+0.3.0:
+
+    * Add missing Django migrations.
+    * Extend title to 512 characters.
+
 0.2.5:
 
     * Removing pip >= 6.0 requirement from setup.py.
