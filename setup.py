@@ -25,7 +25,7 @@ setup(
     ],
     install_requires=[
         'Django',
-        'django-cms >= 3.0',
+        'django-cms >= 3.3.1',
         'django-sekizai',
     ]
 )

@@ -15,8 +15,8 @@ Installation
 Requirements
 ------------
 
-* django >= 1.5
-* django-cms >= 3.0
+* django >= 1.8
+* django-cms >= 3.3.1
 
 Required for included template:
 * django-sekizai
