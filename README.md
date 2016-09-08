@@ -30,6 +30,11 @@ See the [Contributing Guidelines](CONTRIBUTING.md).
 History
 -------
 
+0.4.0:
+
+    * Adding migration required for Django CMS v3.3.1 and later, which is now
+      required for this app.
+
 0.3.0:
 
     * Add missing Django migrations.
