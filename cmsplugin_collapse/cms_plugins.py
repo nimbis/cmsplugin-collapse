@@ -33,5 +33,6 @@ class CollapsiblePlugin(CMSPluginBase):
             })
         return context
 
+
 plugin_pool.register_plugin(AccordionHeaderPlugin)
 plugin_pool.register_plugin(CollapsiblePlugin)
